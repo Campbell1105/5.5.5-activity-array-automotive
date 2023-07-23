@@ -5,23 +5,34 @@ const VehicleModule = require("./vehicleBaseClass")
 let v = new VehicleModule.Vehicle("Mercury", "Sedan", "1965", "color", "mileage");
 console.log(v.make)
 
+class Car extends Vehicle {
 
+  
+      Car myCar = new Car(); {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.maxPassengers = 5;
+        this.passenger = 0;
+        this.speed = 0;
+        this.mileage = mileage;
+        this.started = false;
+        this.numberOfWheels = 0;
+        this.maxSpeed = 160;
+        this.fuel = 10;
+        this.scheduledService = false
+      }
+    }
+
+
+    
 //After you write the derived Car class, you should test it out.
 
 //Note: You can code your derived Car class here or make a file named index.js and do it there.
 
 
 //TO DO: Code the Car subclass here or in index.js file, i.e. class Car extends Vehicle ...
-
-
-
-
-
-
-
-
-
-
 
 
 //TO DO: Creating Instances and Testing Them
